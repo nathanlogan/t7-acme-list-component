@@ -22,6 +22,6 @@ More details here: https://docs.npmjs.com/cli/owner
 2. `cd` to this component's directory.
 3. Bump your version (according to "semver" rules of MAJOR.MINOR.PATCH, or API.BACKWARDS_COMPATIBLE.BUG_FIXES).  You can do that with this code:
 `npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease]`
-4. Run `npm publish .` (you will need to a be a contributor - see "Package Permissions" above if you aren't).
-5. Commit & Push your changes (a version commit and tag will be created for you in the above process).
+4. Commit & Push your changes.
+5. Run `npm publish .` (you will need to a be a contributor - see "Package Permissions" above if you aren't).
 6. Celebrate.
