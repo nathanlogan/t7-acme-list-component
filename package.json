@@ -1,11 +1,11 @@
 {
   "name": "t7-acme-list-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "t7-acme-list-component.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/nathanlogan/t7-acme-list-component.git"
+    "type": "git",
+    "url": "https://github.com/nathanlogan/t7-acme-list-component.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
