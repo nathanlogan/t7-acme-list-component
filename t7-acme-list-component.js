@@ -3,18 +3,21 @@ var $ = require('jquery');
 
 module.exports = function(options){
 
-  var selector = options.el || '.t7-acme-list-component';
-  var el = document.querySelectorAll(selector);
+  var selector = (options && options.el) || '.t7-acme-list-component';
+  var $els = $(selector);
 
-  var data = options.data || ['1', '2', '3'];
-  var html = '';
+  var dataArr = (options && options.data) || ['a', 'b', 'c'];
 
-  var makeHtml = function(arr){
-  	for (var i=0; i<arr.length; i++) {
-  	  html += '<li>'+ arr[i] +'</li>';
-  	}
+  var makeList = function(arr){
+    var html = '<ul>';
+    
+    for (var i=0; i<arr.length; i++) {
+      html += '<li>'+ arr[i] +'</li>';
+    }
+
+    return html +'</ul>';
   };
 
-  el.innerHTML = makeHtml(data);
+  $els.html( makeList(dataArr) );
 
 };
