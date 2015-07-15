@@ -1,0 +1,19 @@
+{
+  "name": "t7-acme-list-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "t7-acme-list-component.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/nathanlogan/t7-acme-list-component.git"
+  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nathan Logan <nathanlogan@gmail.com> (http://nathanlogan.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
